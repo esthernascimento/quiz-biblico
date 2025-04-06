@@ -46,7 +46,7 @@ Durante a **Imersão Dev da Alura - Edição 2025**
 🔗 Acesse o Projeto
 Você pode conferir o projeto funcionando aqui:
 👉 Blibia Quiz - Clique para jogar!
-https://seu-link-aqui.com
+(https://esthernascimento.github.io/quiz-biblico/)
 
 ---
 
