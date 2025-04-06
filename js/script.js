@@ -100,43 +100,42 @@ const conteudo = document.querySelector(".conteudo");
 const conteudoFinal = document.querySelector(".fim")
 
 
-let indiceAtual = 0; 
-let acertos = 0; 
+let indiceAtual = 0;
+let acertos = 0;
 function carregarPergunta() {
-  progressoElemento.innerHTML = `${indiceAtual + 1}/${perguntas.length}`; 
-  const perguntaAtual = perguntas[indiceAtual]; 
-  perguntaElemento.innerHTML = perguntaAtual.pergunta; 
+    progressoElemento.innerHTML = `${indiceAtual + 1}/${perguntas.length}`;
+    const perguntaAtual = perguntas[indiceAtual];
+    perguntaElemento.innerHTML = perguntaAtual.pergunta;
 
-  respostasElemento.innerHTML = ""; 
+    respostasElemento.innerHTML = "";
 
 
-  for (let i = 0; i < perguntaAtual.respostas.length; i++) {
-    const resposta = perguntaAtual.respostas[i];
-    const botao = document.createElement("button");
+    for (let i = 0; i < perguntaAtual.respostas.length; i++) {
+        const resposta = perguntaAtual.respostas[i];
+        const botao = document.createElement("button");
 
-    botao.classList.add("botao-resposta");
-    botao.innerText = resposta.opcao;
-    botao.onclick = function () {
-    
-      if (resposta.correto) {
-        acertos = acertos + 1;
-        acertos++;
-      }
-      indiceAtual++;
-      if (indiceAtual < perguntas.length) {
-        carregarPergunta();
-      } else {
-        finalizarJogo();
-      }
-    };
+        botao.classList.add("botao-resposta");
+        botao.innerText = resposta.opcao;
+        botao.onclick = function () {
 
-    respostasElemento.appendChild(botao);
-  }
+            if (resposta.correto) {
+                acertos++;
+            }
+            indiceAtual++;
+            if (indiceAtual < perguntas.length) {
+                carregarPergunta();
+            } else {
+                finalizarJogo();
+            }
+        };
+
+        respostasElemento.appendChild(botao);
+    }
 }
 function finalizarJogo() {
-  textoFinal.innerHTML = `Você acertou ${acertos} de ${perguntas.length}`; // Exibe o resultado
-  conteudo.style.display = "none"; // Esconde as perguntas
-  conteudoFinal.style.display = "flex"; // Mostra a tela final
+    textoFinal.innerHTML = `Você acertou ${acertos} de ${perguntas.length}`; // Exibe o resultado
+    conteudo.style.display = "none"; // Esconde as perguntas
+    conteudoFinal.style.display = "flex"; // Mostra a tela final
 }
 
 carregarPergunta();
