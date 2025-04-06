@@ -1,7 +1,7 @@
-# ✨📖 Bíblia Quiz 🙌🎮
+# 📖 Bíblia Quiz 🙏🏻🎮
 
 Um quiz interativo e divertido sobre a Bíblia, criado com HTML, CSS e JavaScript!  
-Desenvolvido com muito carinho durante a **Imersão Dev - Alura 2025** 💻🚀
+Desenvolvido com muito carinho durante a **Imersão Dev - Alura 2025** 💻
 
 ## 📸 Preview
 
@@ -36,18 +36,18 @@ Com perguntas simples e diretas, a pessoa pode testar seus conhecimentos sobre h
 
 ---
 
-## 👩‍💻 Projeto criado por
+## 💻 Projeto criado por
 
-Desenvolvido por [Esther Nascimento](https://github.com/esthernascimento) 💁‍♀️💜  
+Desenvolvido por [Esther Nascimento](https://github.com/esthernascimento) 💚👩🏻‍💻👽
 Durante a **Imersão Dev da Alura - Edição 2025**
 
 ---
 
 ## 📲 Contato
 
-- [Instagram](https://www.instagram.com/esthernascimentooficial) 📸  
-- [LinkedIn](https://www.linkedin.com/in/esthernascimentooficial) 💼  
-- [GitHub](https://github.com/esthernascimento) 🧑‍💻  
+- [Instagram](https://www.instagram.com/esthernascimentooficial) 
+- [LinkedIn](https://www.linkedin.com/in/esthernascimentooficial)  
+- [GitHub](https://github.com/esthernascimento) 
 
 ---
 
