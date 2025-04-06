@@ -9,8 +9,6 @@ Coloque aqui uma imagem do seu projeto (print da tela):
 
 ![Preview do Bíblia Quiz](./img/capaProjeto.png)
 
-> 💡 Dica: salve a imagem na pasta do projeto e substitua o caminho acima (ex: `./img/preview.png`)
-
 ---
 
 ## 🎯 Objetivo
