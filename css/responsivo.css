@@ -1,0 +1,24 @@
+footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+
+footer img {
+    width: 150px;
+}
+
+footer h1 {
+    font-size: 14px;
+}
+
+footer .btn-social {
+    flex-direction: row;
+    gap: 10px;
+}
+
+footer .btn-social button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+}
